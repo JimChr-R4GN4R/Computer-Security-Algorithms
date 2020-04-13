@@ -68,9 +68,7 @@ def mul_inv(a, b):
     return x1
 
 
-def get_value(filename):
-    with open(filename) as f:
-        value = f.readline()
+def get_value(value):
     return int(value, 16)
 
 if __name__ == '__main__':
